@@ -1,0 +1,84 @@
+header.masthead {
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+ .color-titulo{ 
+    color: white;
+ }
+.fixed-top{
+    background-color: green;
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover{
+    color: #343a40;
+}
+.navbar-nav .nav-link {
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    color: green;
+}
+
+.nav{
+    margin-top: 10px;
+}
+.nav .nav-item a{
+    color: green;
+    font-size: 20px;
+}
+.fondo {
+    background-color: lightgray;
+    border-radius: 10px;
+    width: auto;
+    height: 350px;
+}
+.display-4 {
+    border-bottom: 5px solid green;
+    color: rgb(62, 62, 62);
+    font-size: 40px !important;
+    font-family: lato;
+}
+
+.nosotros, .contacto {
+    background-color: lightgray;
+    height: 600px;
+}
+.productos {
+    background-color: white;
+    height: 600px;
+
+}
+/* ----  Contacto --- */
+.tituloContacto {
+    color: green;
+    font-family: lato;
+    padding-top: 40px;
+    
+}
+#message {
+    height: 150px;
+}
+#contactForm {
+    margin-top: 80px;
+}
+.btn-enviar {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    width: 100px;
+    height: 50px;
+}
+/* ------- footer ---- */
+.footer {
+    background-color: #343a40;
+    color: white;
+}
