@@ -1,39 +1,51 @@
-header.masthead {
-    background-color: green;
-    position: relative;
-    overflow: hidden;
-    padding-top: calc(7rem + 72px);
-    padding-bottom: 7rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    background-size: cover;
-}
- .color-titulo{ 
-    color: white;
- }
-.fixed-top{
+/* ------ header --------*/
+.navbar{
     background-color: green;
 }
-.navbar-brand {
+.navbar-brand img {
+    width: 200px;
+}
+.nav-item a{
     color: white;
 }
-.navbar-brand:hover{
-    color: #343a40;
-}
-.navbar-nav .nav-link {
-    color: white;
-}
-.navbar-nav .nav-link:hover {
+.nav-item a:hover{
     color: green;
+    background-color: white;
+}
+.masthead {
+    background-color: green;
+    position:relative;
+    overflow:hidden;
+    padding-top:calc(7rem + 72px);
+    padding-bottom:7rem;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:cover;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav{
-    margin-top: 10px;
+
+/* ---------- body ------------ */
+/* servicios */ 
+.titleService {
+    color: green !important;
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
-.nav .nav-item a{
+.section-subheading {
+    margin-bottom: 50px;
+}
+.iconGreen {
     color: green;
-    font-size: 20px;
+}
+.my-3 {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
 }
 .fondo {
     background-color: lightgray;
