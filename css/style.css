@@ -29,6 +29,10 @@
 
 /* ---------- body ------------ */
 /* servicios */ 
+.service {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
 .titleService {
     color: green !important;
     margin-top: 50px;
