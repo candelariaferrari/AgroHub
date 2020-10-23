@@ -1,6 +1,6 @@
 /* ------ header --------*/
 .navbar{
-    background-color: green;
+    background-color: rgba(62, 62, 62, 0.419);
 }
 .navbar-brand img {
     width: 200px;
@@ -13,10 +13,10 @@
     background-color: white;
 }
 .masthead {
-    background-color: green;
+    background-image: url(../image/slider01.png);
     position:relative;
     overflow:hidden;
-    padding-top:calc(7rem + 72px);
+    height: 600px;
     padding-bottom:7rem;
     background-repeat:no-repeat;
     background-position:center center;
@@ -24,6 +24,11 @@
     background-size:cover;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tituloSlide {
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: 45px;
 }
 
 

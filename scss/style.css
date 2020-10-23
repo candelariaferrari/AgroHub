@@ -1,0 +1,177 @@
+/* ------ header --------*/
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #00a79d;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #00a79d;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.masthead {
+  background-image: url(../image/slider01.png);
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  padding-bottom: 7rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloSlide {
+  position: absolute;
+  background-color: #00a79cb1;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+.upercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ---------- body ------------ */
+/* servicios */
+.service {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.titleService {
+  color: green !important;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.section-subheading {
+  margin-bottom: 50px;
+}
+
+.icon {
+  width: 250px;
+}
+
+.my-3 {
+  background-color: #00a79d;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.text-muted {
+  font-size: 15px;
+}
+
+.fondo {
+  background-color: lightgray;
+  border-radius: 10px;
+  width: auto;
+  height: 350px;
+}
+
+.display-4 {
+  border-bottom: 5px solid green;
+  color: #3e3e3e;
+  font-size: 40px !important;
+  font-family: lato;
+}
+
+.productos {
+  background-color: white;
+  height: 100px;
+}
+
+/* ----- nosotros ------*/
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #00a79d;
+}
+
+.tituloNosotros {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: white;
+  font-family: lato;
+  text-transform: uppercase;
+}
+
+.textNosotros {
+  color: white;
+  font-size: 20px;
+}
+
+.line {
+  padding-top: 20px;
+  border-bottom: 2px solid white;
+}
+
+/* ----  Contacto --- */
+.contacto {
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #00a79d;
+}
+
+.tituloContacto .section-heading {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px !important;
+  color: white;
+  font-family: lato;
+  text-transform: uppercase;
+}
+
+#message {
+  height: 150px;
+}
+
+#contactForm {
+  margin-top: 80px;
+}
+
+.btn-enviar {
+  color: #42d86b;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  font-size: 18px !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ------- footer ---- */
+.footer {
+  background-color: #343a40;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
